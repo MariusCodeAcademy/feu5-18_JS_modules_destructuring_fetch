@@ -9,7 +9,7 @@ import {
   getRealHumans,
   getEmailAndHeigh,
 } from './modules/usersHelperFn.js';
-import { getNameAndEmail } from './modules/practiceHelper.js';
+import { getNameAndEmail, addIdsToArrObjects } from './modules/practiceHelper.js';
 
 console.table(users);
 
@@ -34,3 +34,8 @@ console.table(emHeiArr);
 
 const namEmailArr = getNameAndEmail(users);
 console.log('namEmailArr ===', namEmailArr);
+
+// const arrWIds = addIdsToArrObjects(users);
+// console.log('arrWIds ===', JSON.stringify(arrWIds));
+
+window.yyy = 50;

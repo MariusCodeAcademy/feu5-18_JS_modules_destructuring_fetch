@@ -5,6 +5,7 @@ export const users = [
     email: 'bob@builder.com',
     height: 175,
     isRealHuman: true,
+    id: 'id_001',
   },
   {
     name: 'SpongeBob SquarePants',
@@ -12,6 +13,7 @@ export const users = [
     email: 'spongebob@bikinibottom.com',
     height: 160,
     isRealHuman: false,
+    id: 'id_002',
   },
   {
     name: 'Harry Potter',
@@ -19,6 +21,7 @@ export const users = [
     email: 'harry@hogwarts.com',
     height: 180,
     isRealHuman: true,
+    id: 'id_003',
   },
   {
     name: 'Winnie the Pooh',
@@ -26,6 +29,7 @@ export const users = [
     email: 'winnie@hundredacrewood.com',
     height: 140,
     isRealHuman: false,
+    id: 'id_004',
   },
   {
     name: 'Captain Hook',
@@ -33,6 +37,7 @@ export const users = [
     email: 'captainhook@neverland.com',
     height: 170,
     isRealHuman: true,
+    id: 'id_005',
   },
 ];
 // pvz ka norim gaut
