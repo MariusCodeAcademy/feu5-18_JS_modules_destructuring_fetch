@@ -4,7 +4,7 @@ export const users = [
     age: 45,
     email: 'bob@builder.com',
     height: 175,
-    isRealHuman: false,
+    isRealHuman: true,
   },
   {
     name: 'SpongeBob SquarePants',
@@ -32,6 +32,6 @@ export const users = [
     age: 50,
     email: 'captainhook@neverland.com',
     height: 170,
-    isRealHuman: false,
+    isRealHuman: true,
   },
 ];

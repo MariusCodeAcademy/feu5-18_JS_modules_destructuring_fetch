@@ -29,3 +29,8 @@ export function listNameAgeEmail(arr, dest) {
     createElement('p', '', elText, dest);
   });
 }
+
+export function getRealHumans(arr) {
+  return arr.filter((uObj) => uObj.isRealHuman === true);
+  // return arr.filter(({ isRealHuman }) => isRealHuman);
+}
