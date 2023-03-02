@@ -31,3 +31,4 @@
 3. Naudoti masyvo metodą, kad apskaičiuotumėte visų masyvo vartotojų amžių sumą.
 4. Naudoti masyvo metodą, kad rastumėte vartotoją su el. Pašto adresu „harry@hogwarts.com“.
 5. Naudoti masyvo metodą, kad į konsolę būtų išvestas kiekvieno vartotojo vardas ir amžius.
+6. persidaryti vakaryksti projekta su import export js moduliais

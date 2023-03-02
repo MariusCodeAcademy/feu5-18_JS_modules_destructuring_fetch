@@ -9,6 +9,7 @@ import {
   getRealHumans,
   getEmailAndHeigh,
 } from './modules/usersHelperFn.js';
+import { getNameAndEmail } from './modules/practiceHelper.js';
 
 console.table(users);
 
@@ -30,3 +31,6 @@ listNameAgeEmail(realArr, divApp);
 
 const emHeiArr = getEmailAndHeigh(users);
 console.table(emHeiArr);
+
+const namEmailArr = getNameAndEmail(users);
+console.log('namEmailArr ===', namEmailArr);
