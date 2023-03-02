@@ -1,4 +1,4 @@
-const users = [
+export const users = [
   {
     name: 'Bob the Builder',
     age: 45,
