@@ -6,6 +6,11 @@ import { username, town as miestas } from './modules/namedExport.js';
 import { nums } from './modules/numbers.js';
 // import default export
 import vidurkis from './modules/avgDefault.js';
+// import named and default
+import sayHi, { now } from './modules/namedAndDefault.js';
+
+sayHi();
+console.log('now ===', now);
 
 console.log(`this users name is ${username} and he is from ${miestas}`);
 
