@@ -13,3 +13,11 @@
       contertTemp({temp: 18, unit: 'F'}) -> grazins Celsiju
 
 3. Parasyti funkcija kuri atrenka tik realius zmones is users masyvo ir grazina. grazinta masyva atspausdinti su listNameAgeEmail() funkcija
+
+4. parasyti funkcija kuri ima users arr tipo masyva kaip argumenta. ir prideda kiekvienam objektui didejanti id. Id yra string tipo pvz 'id_001', 'id_002'
+
+5. parasyti funkcija kurti gauna argumentu masyva(users) ir email reikme.
+   'deleteUser(user, 'bob@builder.com')'
+   grazinti isviltruota masyvo versija. isitikinti kad veikia. import export
+
+6. parasyti funkcija render(arr). funkcija gauna masyva kaip argumenta(pvz users), ir sugeneruoja li elementu sarasa HTMLe. index.html susikurti ul elementa su id ir i ji sugeneruoti li elementus su visa informacija is objekto
