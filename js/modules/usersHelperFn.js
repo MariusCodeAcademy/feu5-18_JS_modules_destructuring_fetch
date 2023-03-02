@@ -23,6 +23,7 @@ export const createElement = (el, className = '', text = '', parent = '') => {
 };
 
 export function listNameAgeEmail(arr, dest) {
+  // arr.forEach((aObj)  destrukturizuoti aObj
   arr.forEach((aObj) => {
     const elText = `name: ${aObj.name}, age: ${aObj.age}, email: ${aObj.email}`;
     createElement('p', '', elText, dest);
