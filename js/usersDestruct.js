@@ -8,3 +8,5 @@ console.table(users);
 
 const namesArr = getNamesArr(users);
 console.log('namesArr ===', namesArr);
+
+console.log(Object.values(users[0]));
