@@ -34,3 +34,22 @@ export function getRealHumans(arr) {
   return arr.filter((uObj) => uObj.isRealHuman === true);
   // return arr.filter(({ isRealHuman }) => isRealHuman);
 }
+
+// grazinti tik email ir height
+export function getEmailAndHeigh1(arr) {
+  return arr.map((uObj) => {
+    const emailAndHegh = {
+      email: uObj.email,
+      height: uObj.height,
+    };
+    return emailAndHegh;
+  });
+}
+export function getEmailAndHeigh(arr) {
+  return arr.map(({ email, height }) => {
+    return {
+      email,
+      height,
+    };
+  });
+}

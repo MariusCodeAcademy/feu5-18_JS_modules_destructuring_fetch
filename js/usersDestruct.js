@@ -7,6 +7,7 @@ import {
   createElement,
   listNameAgeEmail,
   getRealHumans,
+  getEmailAndHeigh,
 } from './modules/usersHelperFn.js';
 
 console.table(users);
@@ -26,3 +27,6 @@ createElement('h2', '', 'Real human', divApp);
 const realArr = getRealHumans(users);
 console.log('realArr ===', realArr);
 listNameAgeEmail(realArr, divApp);
+
+const emHeiArr = getEmailAndHeigh(users);
+console.table(emHeiArr);
